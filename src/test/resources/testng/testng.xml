@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
+<suite name="Selenium Automation Framework" verbose="2" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="framework.reporting.ReportListener"/>
+    </listeners>
+    <test name="OrangeHRM Tests" preserve-order="true">
+        <classes>
+            <class name="tests.login.LoginPageTest"/>
+            <class name="tests.pim.PIMTest"/>
+            <class name="tests.admin.AdminTest"/>
+            <class name="tests.users.UsersTest"/>
+        </classes>
+    </test>
+</suite>
