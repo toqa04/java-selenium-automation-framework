@@ -1,4 +1,4 @@
-# Selenium Automation Framework
+# Java Selenium Automation Framework
 
 My first automation framework project built with Java, Selenium WebDriver, TestNG, and Maven. The project follows the Page Object Model and is organized for maintainability and future growth.
 
